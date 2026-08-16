@@ -60,18 +60,12 @@ struct CurrencyAmountFormatTests {
         #expect(narrow == "¥1,234")
     }
 
-    /// pt-BR uses a comma as the decimal separator, confirming the formatter
-    /// respects the injected locale rather than the system locale.
-    @Test func ptBRLocaleUsesCommaDecimalSeparator() {
-        let formatted = CurrencyAmountFormat.string(
-            cents: 100_50, currencyCode: "BRL", narrowSymbol: false, locale: ptBR)
-        #expect(formatted.contains(",50"))
-    }
-
-    /// BRL in a pt-BR locale carries the "R$" symbol in standard presentation.
-    @Test func ptBRLocaleBRLShowsRealSymbol() {
+    /// pt-BR uses a comma as the decimal separator and the "R$" symbol for BRL,
+    /// confirming the formatter respects the injected locale.
+    @Test func ptBRLocaleBRLFormatting() {
         let formatted = CurrencyAmountFormat.string(
             cents: 100_50, currencyCode: "BRL", narrowSymbol: false, locale: ptBR)
         #expect(formatted.contains("R$"))
+        #expect(formatted.contains(",50"))
     }
 }
