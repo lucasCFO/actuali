@@ -140,12 +140,12 @@ struct LogTransactionIntent: AppIntent {
             let dialogText: String
             if written.synced {
                 dialogText = displayPayee.isEmpty
-                    ? String(localized: "Logged \(amountString)")
-                    : String(localized: "Logged \(amountString) at \(displayPayee)")
+                    ? String(format: String(localized: "Logged %@"), amountString)
+                    : String(format: String(localized: "Logged %@ at %@"), amountString, displayPayee)
             } else {
                 dialogText = displayPayee.isEmpty
-                    ? String(localized: "Saved locally: \(amountString)")
-                    : String(localized: "Saved locally: \(amountString) at \(displayPayee)")
+                    ? String(format: String(localized: "Saved locally: %@"), amountString)
+                    : String(format: String(localized: "Saved locally: %@ at %@"), amountString, displayPayee)
             }
             return .result(dialog: IntentDialog(stringLiteral: dialogText))
         } catch {
