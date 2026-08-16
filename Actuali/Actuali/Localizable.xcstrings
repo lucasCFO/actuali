@@ -1,0 +1,519 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+
+    "Accounts" : {
+      "comment" : "Tab bar label for the accounts list",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Accounts" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Contas" } }
+      }
+    },
+
+    "Budget" : {
+      "comment" : "Tab bar label for the budget view",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Budget" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Orçamento" } }
+      }
+    },
+
+    "Reports" : {
+      "comment" : "Tab bar label for the reports/dashboard view",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reports" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Relatórios" } }
+      }
+    },
+
+    "Settings" : {
+      "comment" : "Tab bar label for app settings",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Configurações" } }
+      }
+    },
+
+    "Add" : {
+      "comment" : "Tab bar label and button label for adding a new transaction",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Adicionar" } }
+      }
+    },
+
+    "Cancel" : {
+      "comment" : "Generic cancel button",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cancel" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Cancelar" } }
+      }
+    },
+
+    "Save" : {
+      "comment" : "Generic save button",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Save" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Salvar" } }
+      }
+    },
+
+    "Done" : {
+      "comment" : "Generic done/confirm button",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Done" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Concluído" } }
+      }
+    },
+
+    "Delete" : {
+      "comment" : "Generic delete button",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Excluir" } }
+      }
+    },
+
+    "Edit" : {
+      "comment" : "Generic edit button",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Edit" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Editar" } }
+      }
+    },
+
+    "Connect" : {
+      "comment" : "Button to connect to an Actual Budget server",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Connect" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Conectar" } }
+      }
+    },
+
+    "Sync" : {
+      "comment" : "Label for the sync section and sync action",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sync" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Sincronizar" } }
+      }
+    },
+
+    "Sync Now" : {
+      "comment" : "Button to trigger an immediate sync",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sync Now" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Sincronizar Agora" } }
+      }
+    },
+
+    "Unlock" : {
+      "comment" : "Button to unlock an encrypted budget",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unlock" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Desbloquear" } }
+      }
+    },
+
+    "Back Up Now" : {
+      "comment" : "Button to create an on-device backup immediately",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Back Up Now" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Fazer Backup Agora" } }
+      }
+    },
+
+    "All Accounts" : {
+      "comment" : "Heading for the combined transaction list across all accounts",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "All Accounts" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Todas as Contas" } }
+      }
+    },
+
+    "Balance" : {
+      "comment" : "Account or category balance label",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Balance" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Saldo" } }
+      }
+    },
+
+    "Amount" : {
+      "comment" : "Transaction amount field label",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Amount" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Valor" } }
+      }
+    },
+
+    "Category" : {
+      "comment" : "Transaction or budget category field label",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Category" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Categoria" } }
+      }
+    },
+
+    "Payee" : {
+      "comment" : "Transaction payee/merchant field label",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Payee" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Beneficiário" } }
+      }
+    },
+
+    "Transfer" : {
+      "comment" : "Transaction type: transfer between accounts",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Transfer" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Transferência" } }
+      }
+    },
+
+    "Income" : {
+      "comment" : "Income section heading or transaction type",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Income" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Receita" } }
+      }
+    },
+
+    "Cleared" : {
+      "comment" : "Cleared/posted transaction status",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cleared" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Compensado" } }
+      }
+    },
+
+    "Uncleared" : {
+      "comment" : "Pending/uncleared transaction status",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Uncleared" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não Compensado" } }
+      }
+    },
+
+    "Notes" : {
+      "comment" : "Transaction notes/memo field label",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Notes" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Anotações" } }
+      }
+    },
+
+    "Date" : {
+      "comment" : "Transaction date field label",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Date" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Data" } }
+      }
+    },
+
+    "Account" : {
+      "comment" : "Single account field label",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Account" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Conta" } }
+      }
+    },
+
+    "On Budget" : {
+      "comment" : "Account list section: on-budget accounts",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "On Budget" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "No Orçamento" } }
+      }
+    },
+
+    "Off Budget" : {
+      "comment" : "Account list section: off-budget/tracking accounts",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Off Budget" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Fora do Orçamento" } }
+      }
+    },
+
+    "Closed Accounts" : {
+      "comment" : "Account list section: closed accounts",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Closed Accounts" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Contas Encerradas" } }
+      }
+    },
+
+    "Budgeted" : {
+      "comment" : "Amount budgeted for a category this month",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Budgeted" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Orçado" } }
+      }
+    },
+
+    "Spent" : {
+      "comment" : "Amount spent from a budget category",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Spent" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Gasto" } }
+      }
+    },
+
+    "Uncategorized" : {
+      "comment" : "Transactions without a category assigned",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Uncategorized" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Sem Categoria" } }
+      }
+    },
+
+    "To Budget" : {
+      "comment" : "Unallocated amount available to assign to categories",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "To Budget" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Para o Orçamento" } }
+      }
+    },
+
+    "Get Account Balance" : {
+      "comment" : "AppIntent title — shown in Shortcuts/Siri for querying an account balance",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Get Account Balance" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Verificar Saldo da Conta" } }
+      }
+    },
+
+    "Get Category Balance" : {
+      "comment" : "AppIntent title — shown in Shortcuts/Siri for querying a category balance",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Get Category Balance" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Verificar Saldo da Categoria" } }
+      }
+    },
+
+    "Log Transaction" : {
+      "comment" : "AppIntent title — logs a transaction silently from an automation",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Log Transaction" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Registrar Transação" } }
+      }
+    },
+
+    "Add Transaction with Review" : {
+      "comment" : "AppIntent title — opens the add-transaction form pre-filled for review",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add Transaction with Review" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Adicionar Transação com Revisão" } }
+      }
+    },
+
+    "Get Accounts" : {
+      "comment" : "AppIntent title — lists open accounts",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Get Accounts" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Listar Contas" } }
+      }
+    },
+
+    "Get Categories" : {
+      "comment" : "AppIntent title — lists budget categories",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Get Categories" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Listar Categorias" } }
+      }
+    },
+
+    "Get Payees" : {
+      "comment" : "AppIntent title — lists payees",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Get Payees" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Listar Beneficiários" } }
+      }
+    },
+
+    "Open Actuali and select a budget first." : {
+      "comment" : "AppIntent error: user tried an action before loading a budget",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Open Actuali and select a budget first." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Abra o Actuali e selecione um orçamento primeiro." } }
+      }
+    },
+
+    "Select an account in your shortcut or set a default account in Actuali settings." : {
+      "comment" : "AppIntent error: no account specified in the shortcut",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Select an account in your shortcut or set a default account in Actuali settings." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Selecione uma conta no atalho ou configure uma conta padrão nas configurações do Actuali." } }
+      }
+    },
+
+    "Account is no longer available. Edit your shortcut to pick a different account." : {
+      "comment" : "AppIntent error: the previously configured account no longer exists or is closed",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Account is no longer available. Edit your shortcut to pick a different account." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "A conta não está mais disponível. Edite seu atalho para escolher outra conta." } }
+      }
+    },
+
+    "Amount must be greater than 0 (received \"%@\")." : {
+      "comment" : "AppIntent error: invalid transaction amount; %@ is the raw value received from the automation",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Amount must be greater than 0 (received \"%@\")." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O valor deve ser maior que 0 (recebido: \"%@\")." } }
+      }
+    },
+
+    "No amount was received from the automation. iOS sometimes runs Wallet automations before the transaction details are available." : {
+      "comment" : "AppIntent error: the automation passed an empty amount string",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No amount was received from the automation. iOS sometimes runs Wallet automations before the transaction details are available." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Nenhum valor foi recebido da automação. O iOS às vezes executa automações do Wallet antes de os detalhes da transação estarem disponíveis." } }
+      }
+    },
+
+    "Couldn't save transaction. Tap to retry. (%@)" : {
+      "comment" : "AppIntent error: database write failed; %@ is the underlying error message",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Couldn't save transaction. Tap to retry. (%@)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não foi possível salvar a transação. Toque para tentar novamente. (%@)" } }
+      }
+    },
+
+    "Account was not found. Select a valid account in your shortcut." : {
+      "comment" : "AppIntent error: the account ID from the shortcut doesn't match any account",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Account was not found. Select a valid account in your shortcut." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Conta não encontrada. Selecione uma conta válida no atalho." } }
+      }
+    },
+
+    "Category was not found in the current budget month." : {
+      "comment" : "AppIntent error: the category ID from the shortcut doesn't exist in the loaded budget month",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Category was not found in the current budget month." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Categoria não encontrada no mês de orçamento atual." } }
+      }
+    },
+
+    "Logged transaction" : {
+      "comment" : "Local notification title: transaction was logged and synced to the server",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Logged transaction" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Transação registrada" } }
+      }
+    },
+
+    "Saved locally" : {
+      "comment" : "Local notification title: transaction was written to this device but not yet synced",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Saved locally" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Salvo localmente" } }
+      }
+    },
+
+    "Couldn't log transaction" : {
+      "comment" : "Local notification title: the Log Transaction automation failed",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Couldn't log transaction" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não foi possível registrar a transação" } }
+      }
+    },
+
+    "Tap to add it manually." : {
+      "comment" : "Appended to a failure notification body when a prefill payload is included; tapping the notification opens the add-transaction form",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tap to add it manually." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Toque para adicionar manualmente." } }
+      }
+    },
+
+    "Couldn't reach your server — it will sync when you open Actuali." : {
+      "comment" : "Appended to a success notification body when the server was unreachable and the transaction is pending sync",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Couldn't reach your server — it will sync when you open Actuali." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não foi possível alcançar o servidor — será sincronizado quando você abrir o Actuali." } }
+      }
+    },
+
+    "New transaction" : {
+      "comment" : "Notification title when exactly one transaction arrives from another device",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "New transaction" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Nova transação" } }
+      }
+    },
+
+    "%lld new transactions" : {
+      "comment" : "Notification title when multiple transactions arrive from other devices; %lld is the count (always ≥ 2)",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "%lld new transactions" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "%lld novas transações" } }
+      }
+    },
+
+    "…and %lld more" : {
+      "comment" : "Overflow suffix in a notification listing transactions; %lld is the number not shown",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "…and %lld more" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "…e mais %lld" } }
+      }
+    },
+
+    "Needs a category" : {
+      "comment" : "Marker appended to a transaction line in a notification when the transaction has no category assigned",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Needs a category" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Precisa de uma categoria" } }
+      }
+    },
+
+    "%@ balance is %@" : {
+      "comment" : "AppIntent dialog: account balance result; first %@ is the account name, second is the formatted balance",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ balance is %@" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O saldo de %@ é %@" } }
+      }
+    },
+
+    "%@ has %@ available" : {
+      "comment" : "AppIntent dialog: category available balance result; first %@ is the category name, second is the formatted amount",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ has %@ available" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "%@ tem %@ disponível" } }
+      }
+    },
+
+    "Logged %@" : {
+      "comment" : "AppIntent dialog: transaction was logged (synced); %@ is the formatted amount",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Logged %@" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Registrado %@" } }
+      }
+    },
+
+    "Logged %@ at %@" : {
+      "comment" : "AppIntent dialog: transaction was logged (synced); first %@ is amount, second is payee name",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Logged %@ at %@" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Registrado %@ em %@" } }
+      }
+    },
+
+    "Saved locally: %@" : {
+      "comment" : "AppIntent dialog: transaction was saved locally but not yet synced to the server; %@ is the formatted amount",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Saved locally: %@" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Salvo localmente: %@" } }
+      }
+    },
+
+    "Saved locally: %@ at %@" : {
+      "comment" : "AppIntent dialog: transaction saved locally, not synced; first %@ is amount, second is payee name",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Saved locally: %@ at %@" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Salvo localmente: %@ em %@" } }
+      }
+    }
+
+  },
+  "version" : "1.0"
+}

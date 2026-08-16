@@ -40,7 +40,7 @@ struct GetAccountBalanceIntent: AppIntent {
         }
 
         let formattedBalance = store.displayBalance(activeAccount.balance)
-        let dialogText = "\(activeAccount.name) balance is \(formattedBalance)"
+        let dialogText = String(localized: "\(activeAccount.name) balance is \(formattedBalance)")
         return .result(value: formattedBalance, dialog: IntentDialog(stringLiteral: dialogText))
     }
 }

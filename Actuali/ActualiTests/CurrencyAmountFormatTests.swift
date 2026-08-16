@@ -9,6 +9,7 @@ struct CurrencyAmountFormatTests {
 
     private let enUS = Locale(identifier: "en_US")
     private let enNZ = Locale(identifier: "en_NZ")
+    private let ptBR = Locale(identifier: "pt_BR")
 
     @Test func standardPresentationKeepsDisambiguationPrefix() {
         let formatted = CurrencyAmountFormat.string(
@@ -57,5 +58,20 @@ struct CurrencyAmountFormatTests {
             cents: 123_450, currencyCode: "JPY", narrowSymbol: true, locale: enUS)
         #expect(standard == "¥1,234")
         #expect(narrow == "¥1,234")
+    }
+
+    /// pt-BR uses a comma as the decimal separator, confirming the formatter
+    /// respects the injected locale rather than the system locale.
+    @Test func ptBRLocaleUsesCommaDecimalSeparator() {
+        let formatted = CurrencyAmountFormat.string(
+            cents: 100_50, currencyCode: "BRL", narrowSymbol: false, locale: ptBR)
+        #expect(formatted.contains(",50"))
+    }
+
+    /// BRL in a pt-BR locale carries the "R$" symbol in standard presentation.
+    @Test func ptBRLocaleBRLShowsRealSymbol() {
+        let formatted = CurrencyAmountFormat.string(
+            cents: 100_50, currencyCode: "BRL", narrowSymbol: false, locale: ptBR)
+        #expect(formatted.contains("R$"))
     }
 }

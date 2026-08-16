@@ -36,7 +36,7 @@ enum TransactionLogNotifier {
         guard granted else { return }
 
         let content = UNMutableNotificationContent()
-        content.title = synced ? "Logged transaction" : "Saved locally"
+        content.title = synced ? String(localized: "Logged transaction") : String(localized: "Saved locally")
         content.body = composeSuccessBody(payee: payee, amountCents: amountCents,
                                           currencyCode: currencyCode, narrowSymbol: narrowSymbol,
                                           synced: synced)
@@ -74,12 +74,12 @@ enum TransactionLogNotifier {
         guard granted else { return }
 
         let content = UNMutableNotificationContent()
-        content.title = "Couldn't log transaction"
+        content.title = String(localized: "Couldn't log transaction")
         content.body = composeBody(message: message, payee: payee, amountCents: amountCents,
                                    currencyCode: currencyCode, narrowSymbol: narrowSymbol)
         content.sound = .default
         if let prefill {
-            content.body += " Tap to add it manually."
+            content.body += " " + String(localized: "Tap to add it manually.")
             content.userInfo = prefill.userInfo
         }
 
@@ -123,7 +123,7 @@ enum TransactionLogNotifier {
                                                        locale: locale)
         let prefix = payee.isEmpty ? amountString : "\(amountString) at \(payee)"
         guard synced else {
-            return "\(prefix). Couldn't reach your server — it will sync when you open Actuali."
+            return "\(prefix). " + String(localized: "Couldn't reach your server — it will sync when you open Actuali.")
         }
         return prefix
     }

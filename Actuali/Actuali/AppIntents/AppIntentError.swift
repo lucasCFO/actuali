@@ -15,20 +15,20 @@ enum LogTransactionError: Error, LocalizedError, CustomLocalizedStringResourceCo
     var errorDescription: String? {
         switch self {
         case .noBudgetLoaded:
-            return "Open Actuali and select a budget first."
+            return String(localized: "Open Actuali and select a budget first.")
         case .noAccountSelected:
-            return "Select an account in your shortcut or set a default account in Actuali settings."
+            return String(localized: "Select an account in your shortcut or set a default account in Actuali settings.")
         case .accountUnavailable:
-            return "Account is no longer available. Edit your shortcut to pick a different account."
+            return String(localized: "Account is no longer available. Edit your shortcut to pick a different account.")
         case .invalidAmount(let received):
             // Show what the automation actually delivered: issue #41 failures
             // hinge on whether iOS passed the real text or a coerced "0".
             let shown = received.trimmingCharacters(in: .whitespacesAndNewlines).prefix(40)
-            return "Amount must be greater than 0 (received \"\(shown)\")."
+            return String(localized: "Amount must be greater than 0 (received \"\(shown)\").")
         case .noAmountReceived:
-            return "No amount was received from the automation. iOS sometimes runs Wallet automations before the transaction details are available."
+            return String(localized: "No amount was received from the automation. iOS sometimes runs Wallet automations before the transaction details are available.")
         case .writeFailed(let underlying):
-            return "Couldn't save transaction. Tap to retry. (\(underlying))"
+            return String(localized: "Couldn't save transaction. Tap to retry. (\(underlying))")
         }
     }
 
@@ -46,13 +46,13 @@ enum GetBalanceError: Error, LocalizedError, CustomLocalizedStringResourceConver
     var errorDescription: String? {
         switch self {
         case .accountNotFound:
-            return "Account was not found. Select a valid account in your shortcut."
+            return String(localized: "Account was not found. Select a valid account in your shortcut.")
         case .categoryNotFound:
-            return "Category was not found in the current budget month."
+            return String(localized: "Category was not found in the current budget month.")
         case .noBudgetLoaded:
-            return "Open Actuali and select a budget first."
+            return String(localized: "Open Actuali and select a budget first.")
         case .noAccountSelected:
-            return "Select an account in your shortcut or set a default account in Actuali settings."
+            return String(localized: "Select an account in your shortcut or set a default account in Actuali settings.")
         }
     }
 
