@@ -445,16 +445,44 @@
     "%lld new transactions" : {
       "comment" : "Notification title when multiple transactions arrive from other devices; %lld is the count (always ≥ 2)",
       "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "%lld new transactions" } },
-        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "%lld novas transações" } }
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld new transaction" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld new transactions" } }
+            }
+          }
+        },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%lld nova transação" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%lld novas transações" } }
+            }
+          }
+        }
       }
     },
 
     "…and %lld more" : {
       "comment" : "Overflow suffix in a notification listing transactions; %lld is the number not shown",
       "localizations" : {
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "…and %lld more" } },
-        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "…e mais %lld" } }
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "…and %lld more" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "…and %lld more" } }
+            }
+          }
+        },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "…e mais %lld" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "…e mais %lld" } }
+            }
+          }
+        }
       }
     },
 

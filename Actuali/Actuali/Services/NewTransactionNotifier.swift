@@ -91,19 +91,14 @@ enum NewTransactionNotifier {
 
         content.title = transactions.count == 1
             ? String(localized: "New transaction")
-            : String(format: String(localized: "%lld new transactions"), transactions.count)
+            : String(localized: "\(transactions.count) new transactions")
 
         var lines = transactions.prefix(maxDetailLines).map {
             line(for: $0, currencyCode: currencyCode, narrowSymbol: narrowSymbol,
                  accountNames: accountNames, offBudgetAccountIds: offBudgetAccountIds)
         }
         if transactions.count > maxDetailLines {
-            lines.append(
-                String(
-                    format: String(localized: "…and %lld more"),
-                    transactions.count - maxDetailLines
-                )
-            )
+            lines.append(String(localized: "…and \(transactions.count - maxDetailLines) more"))
         }
         content.body = lines.joined(separator: "\n")
 
