@@ -24,11 +24,17 @@ enum LogTransactionError: Error, LocalizedError, CustomLocalizedStringResourceCo
             // Show what the automation actually delivered: issue #41 failures
             // hinge on whether iOS passed the real text or a coerced "0".
             let shown = received.trimmingCharacters(in: .whitespacesAndNewlines).prefix(40)
-            return String(localized: "Amount must be greater than 0 (received \"\(shown)\").")
+            return String(
+                format: String(localized: "Amount must be greater than 0 (received \"%@\")."),
+                String(shown)
+            )
         case .noAmountReceived:
             return String(localized: "No amount was received from the automation. iOS sometimes runs Wallet automations before the transaction details are available.")
         case .writeFailed(let underlying):
-            return String(localized: "Couldn't save transaction. Tap to retry. (\(underlying))")
+            return String(
+                format: String(localized: "Couldn't save transaction. Tap to retry. (%@)"),
+                String(describing: underlying)
+            )
         }
     }
 
@@ -60,4 +66,3 @@ enum GetBalanceError: Error, LocalizedError, CustomLocalizedStringResourceConver
         LocalizedStringResource(stringLiteral: errorDescription ?? "Unknown error")
     }
 }
-
